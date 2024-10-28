@@ -348,6 +348,10 @@
     display: none;
   }
 
+
+* {
+    box-sizing: border-box;
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -373,9 +377,6 @@
     --section-title-color: var(--color-black);
 }
 
-* {
-    box-sizing: border-box;
-}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
